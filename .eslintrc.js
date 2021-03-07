@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:security/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
@@ -18,5 +17,5 @@ module.exports = {
     ecmaVersion: 8,
     project: './tsconfig.eslint.json',
   },
-  plugins: ['@typescript-eslint', 'security'],
+  plugins: ['@typescript-eslint'],
 };
